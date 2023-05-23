@@ -1,0 +1,8 @@
+Type of your website: For buisness ,blog ,other
+Front end language of your website:txt
+
+backand languages of your website:txt
+
+your website based on templates ?: yes or no
+
+Tell about your website in details:txt box

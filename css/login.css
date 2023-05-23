@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+
+    margin-left: 11pc;
+}
+body{
+    background-color:#8f8a81;
+    
+}
+.container{
+    background-color: #F8CBA6;
+    width: 200px;
+    height: 662px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+li{
+    list-style: none;
+    margin-top: 2pc;
+    padding: .5pc;
+    padding-left: 33px;
+    margin-left: 48px;
+    height: 27px;
+    width: 111px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    transition:.6s;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 1.7pc;
+}
+.list{
+    margin-top: 2pc;
+}
+#fn{
+    color: aliceblue;
+    font-size: 2pc;
+   Font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sn{
+    font-size: 2pc;
+    Font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#dash{
+    background-color:#8f8a81;
+    color: black;
+}
+main{
+    display: flex;
+    
+}
+.container33{
+    width: 1149px;
+    color: white;
+    height: 482px;
+    margin-left: 12.5pc;
+ 
+}
+#aboutimg{
+    height:482px;
+    width: 1166px;
+}
+#abouttxt{
+    position: absolute;
+    color:#F8CBA6;
+    font-weight: 700;
+    font-size: 2.6pc;
+    text-shadow: 4px 4px 12px black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#abouttxtcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container333{
+    background-color: white;
+  margin: 1pc;
+ 
+    height: 524px;
+    width: 1100px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 14PC;
+    align-items: center;
+   
+  
+}
+.txtbox{
+    height: 20px;
+    width: 162px;
+    border:2px solid #F8CBA6;
+    border-radius: 5px;
+}
+#logimg{
+    height: 524px;
+    width: 588px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top:14px;
+    margin-bottom: 10px;
+  
+ 
+}
+#logimg2{
+    height: 524px;
+    width: 588px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top:14px;
+    margin-bottom: 10px;
+}
+.aboutus{
+    margin-left: 200px;
+    background-color: black;
+    color: aliceblue;
+    height: 119px;
+    width: 1149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.loginbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6db9c99;
+    padding: 5pc;
+    border: 3px solid #F8CBA6;
+    margin-left: 3pc;
+    margin-right: 3pc;
+    height: 16pc;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#button{
+    background-color: #F8CBA6;
+    padding: .5pc;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#button:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: .6s;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: white;
+     text-shadow: 3px 3px 15px gray;
+}
+.hadcon{
+    background-color: #F8CBA6;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
