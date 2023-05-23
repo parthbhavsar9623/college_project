@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/comunity.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div id="fn">DUO</div>
+            <div id="sn">WEBIZZ</div>
+        </div>
+        <div class="list">
+            <li >
+            <a href="index.html"><img src="icons/house-fill.svg" alt="" srcset="">&nbsp; Home</a>
+            </li>
+            <li>
+              <a href="about.html">  <img src="icons/building.svg" alt="" srcset="">&nbsp; About</a>
+            </li>
+            <li>
+                <a href="services/services.php"><img src="icons/reception-4.svg" alt="" srcset="">&nbsp; Services</a>
+            </li>
+            <li>
+               <a href="contact.html"> <img src="icons/person-lines-fill.svg" alt="" srcset="">&nbsp; Contact</a>
+            </li>
+            <li id="dash">
+              <a href="community.html"> <img src="icons/people-fill.svg" alt="" srcset="">&nbsp; Community</a>
+            </li>
+
+        </div>
+        
+    </div>
+    <div >
+
+        <div class="banner">
+            <div id="abouttxtcenter">
+             <div id="abouttxt">WE ARE THE CHANGE</div>
+                <img src="imgs/communityimg.jpg" alt="" id="aboutimg">
+              </div>    
+        </div>
+        <div class="container2">
+            <form action="php/communityform/server.php" method="post">
+
+                <div class="hadcon">
+                <h2 align="center">WEB DEVELOPER CAN JOIN US</h2>
+               <h2 align="center">SUBMIT YOUR DETAILS WE CONTACT YOU SOON</h2>
+                 </div>
+                 <div class="logcon">
+            <div id="mainform">
+
+                <div>
+                
+               First Name : <input type="text" name="fname" class="txtbox"> &nbsp;&nbsp; <br><br>
+               Middle Name : <input type="text" name="sname" class="txtbox"> &nbsp;&nbsp;<br><br>
+               Last Name : <input type="text" name="lname" class="txtbox">&nbsp;&nbsp;<br><br>
+            </div>
+
+            <br>
+            <div>
+                Gender :
+<input type = "radio" name="gender" value="Male" checked> Male
+<input type ="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other" id=""> Other
+              </div>
+
+               
+
+            <br>
+            <div>
+                Date of Birth :&nbsp;<input type = date name = dob class="txtbox">
+            </div>
+<br>
+<div>
+   Work from State :
+    <select id="country-state" name="workstate" class="txtbox">
+        <option value="AN">Andaman and Nicobar Islands</option>
+        <option value="AP">Andhra Pradesh</option>
+        <option value="AR">Arunachal Pradesh</option>
+        <option value="AS">Assam</option>
+        <option value="BR">Bihar</option>
+        <option value="CH">Chandigarh</option>
+        <option value="CT">Chhattisgarh</option>
+        <option value="DN">Dadra and Nagar Haveli</option>
+        <option value="DD">Daman and Diu</option>
+        <option value="DL">Delhi</option>
+        <option value="GA">Goa</option>
+        <option value="GJ">Gujarat</option>
+        <option value="HR">Haryana</option>
+        <option value="HP">Himachal Pradesh</option>
+        <option value="JK">Jammu and Kashmir</option>
+        <option value="JH">Jharkhand</option>
+        <option value="KA">Karnataka</option>
+        <option value="KL">Kerala</option>
+        <option value="LA">Ladakh</option>
+        <option value="LD">Lakshadweep</option>
+        <option value="MP">Madhya Pradesh</option>
+        <option value="MH">Maharashtra</option>
+        <option value="MN">Manipur</option>
+        <option value="ML">Meghalaya</option>
+        <option value="MZ">Mizoram</option>
+        <option value="NL">Nagaland</option>
+        <option value="OR">Odisha</option>
+        <option value="PY">Puducherry</option>
+        <option value="PB">Punjab</option>
+        <option value="RJ">Rajasthan</option>
+        <option value="SK">Sikkim</option>
+        <option value="TN">Tamil Nadu</option>
+        <option value="TG">Telangana</option>
+        <option value="TR">Tripura</option>
+        <option value="UP">Uttar Pradesh</option>
+        <option value="UT">Uttarakhand</option>
+        <option value="WB">West Bengal</option>
+    </select>
+
+<br>
+<br>
+Field :
+<select id="wf"" name="workfield" class="txtbox">
+    <option value="Web Dev Frontend">Web Devloper(Frontend)</option>
+    <option value="Web Dev Backend">Web Devloper(Backend)</option>
+</select>
+
+
+</div><br>
+<div>
+    Educational Qualification :
+    <select name="eq" class="txtbox">
+    <option value="BCA">BCA</option>
+    <option value="MCA" selected>MCA</option>
+    <option value="Other Programing Cource">Other Programing Cources</option>
+    <option value="Msc.IT">MSC.IT</option>
+    </select>
+</div>
+<br>
+<div>
+    Experiance :
+<input type = radio name="xp" value="Fresher">Fresher &nbsp;
+<input type = radio name="xp" value="Lessthen 2 year" checked> Less then 2 year &nbsp;
+<input type = radio name="xp" value="Morethen 2 year"> More then 2 year
+</div><br>
+<div>
+    E-mail : <input type="email" name="mail" class="txtbox" pattern="+@globex\.com" size="30" required> &nbsp;&nbsp; <br> <br>
+    Mobile : <input type="number" name="mobile" class="txtbox" >
+</div><br>
+<div>
+    <input type="submit" value="SUBMIT" class="btns">
+    <input type="reset" value="RESET" class="btns">
+</div>
+            </div>
+
+            <div class="logconimg"><img src="imgs/grpdev.jpg" alt="" id="imgs"></div>
+        </div>
+           </form>
+        
+        </div>
+        </div>
+        <div class="aboutus">
+            &copy;2022 DUOWEBIZZ. All rights reserved.&nbsp; 
+         This Web application has a best view in 1366*768 Scale.
+        </div>
+      
+</body>
+</html>
+<script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+<script>
+    function loadGoogleTranslate(){
+        new google.translate.TranslateElement("google_element");
+    }
+</script>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+
+    margin-left: 11pc;
+}
+
+body{
+    background-color:#8f8a81;
+    
+    
+  
+}
+.container{
+    background-color: #F8CBA6;
+    width: 200px;
+    height: 662px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+li{
+    list-style: none;
+    margin-top: 2pc;
+    padding: .5pc;
+    padding-left: 33px;
+    margin-left: 48px;
+    height: 27px;
+    width: 111px;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    transition:.6s;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 1.7pc;
+}
+.list{
+    margin-top: 2pc;
+}
+#fn{
+    color: aliceblue;
+    font-size: 2pc;
+   Font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sn{
+    font-size: 2pc;
+    Font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#dash{
+    background-color:#8f8a81;
+    color: black;
+}
+main{
+    display: flex;
+    
+}
+
+#container333{
+    background-color: white;
+    margin-bottom: 1pc;
+ 
+    height: 530px;
+    width: 1100px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 14PC;
+    align-items: center;
+   justify-content: center;
+  
+}
+.txtbox{
+    height: 20px;
+    width: 162px;
+    border:2px solid #F8CBA6;
+    border-radius: 5px;
+}
+
+.aboutus{
+    margin-left: 200px;
+    background-color: black;
+    color: aliceblue;
+    height: 119px;
+    width: 1149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.loginbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6db9c99;
+    padding: 5pc;
+    border: 3px solid #F8CBA6;
+    margin-left: 3pc;
+    margin-right: 3pc;
+    height: 16pc;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#button{
+    background-color: #F8CBA6;
+    padding: .5pc;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#button:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: .6s;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: white;
+     text-shadow: 3px 3px 15px gray;
+}
+.hadcon{
+    background-color: #F8CBA6;
+    height: 50px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.formcs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.imgscon{
+    height: 530px;
+    width: 530px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#google_element{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1pc;
+}
+    </style>
+</head>
+<body><div class="container">
+    <div class="logo">
+        <div id="fn">DUO</div>
+        <div id="sn">WEBIZZ</div>
+    </div>
+    <div class="list">
+        <li >
+        <a href="index.html"><img src="icons/house-fill.svg" alt="" srcset="">&nbsp; Home</a>
+        </li>
+        <li>
+          <a href="about.html">  <img src="icons/building.svg" alt="" srcset="">&nbsp; About</a>
+        </li>
+        <li id="dash">
+            <a href="services/services.php"><img src="icons/reception-4.svg" alt="" srcset="">&nbsp; Services</a>
+        </li>
+        <li>
+           <a href="contact.html"> <img src="icons/person-lines-fill.svg" alt="" srcset="">&nbsp; Contact</a>
+        </li>
+        <li>
+          <a href="community.html"> <img src="icons/people-fill.svg" alt="" srcset="">&nbsp; Community</a>
+        </li>
+
+    </div> 
+    
+</div>
+<div >
+
+   
+ 
+  <div id="container333">
+    <div class="loginbox">
+        <div class="content">
+         <div class="hadcon"> <h2 align="center">Create account</h2></div>
+<br>
+      
+         <form action="/project22/php/registration/registration.php" method="post">
+            <div class="formcs">
+                <div>
+            Name:  &nbsp;   <input type="text" name="name" id="" class="txtbox">
+        <br><br></div>
+        <div>
+            Name of pet: &nbsp;<input type="text" name="nameofpet" id="" class="txtbox"><br><br>
+        </div><div>  E-mail: &nbsp; <input type="text" name="mail" id="" class="txtbox"> <br><br>
+        </div><div>Create Password: &nbsp;<input type="text" name="password" id="" class="txtbox"><br><br>
+        </div> <div>Confirm Password: &nbsp;<input type="text" name="conpassword" id="" class="txtbox"></div>
+            </div><br>
+<div>
+    <a href="loginpage.html">Alrady have an account? login here...</a>
+</div>
+            <div><br>
+                <input type="submit"id="button"  value="REGISTER" >&nbsp;
+                    <input type="reset" id="button" value="RESET" >
+                </div>
+            </form>
+        
+      </div>
+    </div>
+  <div class="imgscon">
+    <img src="imgs/registerimg.png" alt="" class="imgscon"> 
+  </div>
+   
+
+</div>
+          <div class="aboutus">
+            &copy;2022 DUOWEBIZZ. All rights reserved.&nbsp;
+            This Web application has a best view in 1366*768 Scale.
+          </div>
+</body>
+</html>
+<script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+<script>
+    function loadGoogleTranslate(){
+        new google.translate.TranslateElement("google_element");
+    }
+</script>
